@@ -16,7 +16,7 @@ public class addreessbook {
 	    System.setProperty("webdriver.chrome.driver", "C:\\users\\hp\\Downloads\\cd\\chromedriver.exe");
    	    driver = new ChromeDriver();		
 		driver.manage().window().maximize();
-	    driver.get("http://34.87.45.231:8081/addressbook/");	
+	    driver.get("http://34.87.32.152:8081/addressbook/");	
 	}
   @Test
   public void veifySaveMethod() 
